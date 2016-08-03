@@ -1,0 +1,6 @@
+framework module Pods_WeFlee {
+  umbrella header "Pods-WeFlee-umbrella.h"
+
+  export *
+  module * { export * }
+}

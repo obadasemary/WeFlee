@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220323C0DE31943BF7A41B2C /* Pods_WeFleeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DA169EBE1D99BB87A2644D /* Pods_WeFleeTests.framework */; };
+		A7AE1128357309665EE676D8 /* Pods_WeFlee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C66823649AE0F384636019 /* Pods_WeFlee.framework */; };
 		AF286C0B1D524B06003B91BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C0A1D524B06003B91BE /* AppDelegate.swift */; };
 		AF286C0D1D524B06003B91BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C0C1D524B06003B91BE /* ViewController.swift */; };
 		AF286C101D524B06003B91BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF286C0E1D524B06003B91BE /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AF286C151D524B06003B91BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF286C131D524B06003B91BE /* LaunchScreen.storyboard */; };
 		AF286C201D524B06003B91BE /* WeFleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C1F1D524B06003B91BE /* WeFleeTests.swift */; };
 		AF286C2B1D524B06003B91BE /* WeFleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C2A1D524B06003B91BE /* WeFleeUITests.swift */; };
+		B6B25A8253753556803B1816 /* Pods_WeFleeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA0856BF7C147E2D193656 /* Pods_WeFleeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D3300CFA9E704036B438A1 /* Pods-WeFleeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFleeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeFleeUITests/Pods-WeFleeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		280D9BEEF8DF271B0632E5B6 /* Pods-WeFleeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFleeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeFleeTests/Pods-WeFleeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BBA0856BF7C147E2D193656 /* Pods_WeFleeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeFleeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428187CF8E2871E3C80675C8 /* Pods-WeFlee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFlee.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeFlee/Pods-WeFlee.release.xcconfig"; sourceTree = "<group>"; };
+		55DA169EBE1D99BB87A2644D /* Pods_WeFleeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeFleeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755F206C9CC50924048062E0 /* Pods-WeFleeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFleeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeFleeTests/Pods-WeFleeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92C66823649AE0F384636019 /* Pods_WeFlee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeFlee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF286C071D524B05003B91BE /* WeFlee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeFlee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF286C0A1D524B06003B91BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF286C0C1D524B06003B91BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		AF286C261D524B06003B91BE /* WeFleeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeFleeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF286C2A1D524B06003B91BE /* WeFleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeFleeUITests.swift; sourceTree = "<group>"; };
 		AF286C2C1D524B06003B91BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92C8B7C5A7BEE74D6F518D2 /* Pods-WeFleeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFleeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeFleeUITests/Pods-WeFleeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDBCB4D801FCE24F0F5C3ED8 /* Pods-WeFlee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeFlee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeFlee/Pods-WeFlee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AE1128357309665EE676D8 /* Pods_WeFlee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220323C0DE31943BF7A41B2C /* Pods_WeFleeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B25A8253753556803B1816 /* Pods_WeFleeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB18D9C7A9B7A8C048501CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C66823649AE0F384636019 /* Pods_WeFlee.framework */,
+				55DA169EBE1D99BB87A2644D /* Pods_WeFleeTests.framework */,
+				2BBA0856BF7C147E2D193656 /* Pods_WeFleeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D1357A77B1A67385985C96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDBCB4D801FCE24F0F5C3ED8 /* Pods-WeFlee.debug.xcconfig */,
+				428187CF8E2871E3C80675C8 /* Pods-WeFlee.release.xcconfig */,
+				755F206C9CC50924048062E0 /* Pods-WeFleeTests.debug.xcconfig */,
+				280D9BEEF8DF271B0632E5B6 /* Pods-WeFleeTests.release.xcconfig */,
+				B92C8B7C5A7BEE74D6F518D2 /* Pods-WeFleeUITests.debug.xcconfig */,
+				04D3300CFA9E704036B438A1 /* Pods-WeFleeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF286BFE1D524B05003B91BE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				AF286C1E1D524B06003B91BE /* WeFleeTests */,
 				AF286C291D524B06003B91BE /* WeFleeUITests */,
 				AF286C081D524B05003B91BE /* Products */,
+				93D1357A77B1A67385985C96 /* Pods */,
+				0AB18D9C7A9B7A8C048501CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF286C2F1D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFlee" */;
 			buildPhases = (
+				9D81889FA4A3957241D62135 /* 📦 Check Pods Manifest.lock */,
 				AF286C031D524B05003B91BE /* Sources */,
 				AF286C041D524B05003B91BE /* Frameworks */,
 				AF286C051D524B05003B91BE /* Resources */,
+				2524B0E77413A3C3B859B994 /* 📦 Embed Pods Frameworks */,
+				81E5410C1D2AF1884F149D7C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF286C321D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeTests" */;
 			buildPhases = (
+				DDC4ACDCA692876E3039810A /* 📦 Check Pods Manifest.lock */,
 				AF286C171D524B06003B91BE /* Sources */,
 				AF286C181D524B06003B91BE /* Frameworks */,
 				AF286C191D524B06003B91BE /* Resources */,
+				471F8B8176CD7D9FCF042506 /* 📦 Embed Pods Frameworks */,
+				B4F3F65AFDA543F92F2C35BE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF286C351D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeUITests" */;
 			buildPhases = (
+				6A9EE08AFF6F77F3695BAECF /* 📦 Check Pods Manifest.lock */,
 				AF286C221D524B06003B91BE /* Sources */,
 				AF286C231D524B06003B91BE /* Frameworks */,
 				AF286C241D524B06003B91BE /* Resources */,
+				AE5978FF386480001DE297FD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +241,7 @@
 				TargetAttributes = {
 					AF286C061D524B05003B91BE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AEU29WHAF5;
 					};
 					AF286C1A1D524B06003B91BE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -250,6 +299,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2524B0E77413A3C3B859B994 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeFlee/Pods-WeFlee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471F8B8176CD7D9FCF042506 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeFleeTests/Pods-WeFleeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9EE08AFF6F77F3695BAECF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E5410C1D2AF1884F149D7C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeFlee/Pods-WeFlee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D81889FA4A3957241D62135 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5978FF386480001DE297FD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeFleeUITests/Pods-WeFleeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F3F65AFDA543F92F2C35BE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeFleeTests/Pods-WeFleeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC4ACDCA692876E3039810A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF286C031D524B05003B91BE /* Sources */ = {
@@ -397,8 +569,10 @@
 		};
 		AF286C301D524B06003B91BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBCB4D801FCE24F0F5C3ED8 /* Pods-WeFlee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WeFlee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFlee;
@@ -408,8 +582,10 @@
 		};
 		AF286C311D524B06003B91BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428187CF8E2871E3C80675C8 /* Pods-WeFlee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WeFlee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFlee;
@@ -419,6 +595,7 @@
 		};
 		AF286C331D524B06003B91BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755F206C9CC50924048062E0 /* Pods-WeFleeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeFleeTests/Info.plist;
@@ -431,6 +608,7 @@
 		};
 		AF286C341D524B06003B91BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280D9BEEF8DF271B0632E5B6 /* Pods-WeFleeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WeFleeTests/Info.plist;
@@ -443,6 +621,7 @@
 		};
 		AF286C361D524B06003B91BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92C8B7C5A7BEE74D6F518D2 /* Pods-WeFleeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeFleeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +633,7 @@
 		};
 		AF286C371D524B06003B91BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D3300CFA9E704036B438A1 /* Pods-WeFleeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WeFleeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +662,7 @@
 				AF286C311D524B06003B91BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF286C321D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +671,7 @@
 				AF286C341D524B06003B91BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF286C351D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +680,7 @@
 				AF286C371D524B06003B91BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
