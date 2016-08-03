@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF286C0B1D524B06003B91BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C0A1D524B06003B91BE /* AppDelegate.swift */; };
+		AF286C0D1D524B06003B91BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C0C1D524B06003B91BE /* ViewController.swift */; };
+		AF286C101D524B06003B91BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF286C0E1D524B06003B91BE /* Main.storyboard */; };
+		AF286C121D524B06003B91BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF286C111D524B06003B91BE /* Assets.xcassets */; };
+		AF286C151D524B06003B91BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF286C131D524B06003B91BE /* LaunchScreen.storyboard */; };
+		AF286C201D524B06003B91BE /* WeFleeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C1F1D524B06003B91BE /* WeFleeTests.swift */; };
+		AF286C2B1D524B06003B91BE /* WeFleeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF286C2A1D524B06003B91BE /* WeFleeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF286C1C1D524B06003B91BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF286BFF1D524B05003B91BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF286C061D524B05003B91BE;
+			remoteInfo = WeFlee;
+		};
+		AF286C271D524B06003B91BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF286BFF1D524B05003B91BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF286C061D524B05003B91BE;
+			remoteInfo = WeFlee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF286C071D524B05003B91BE /* WeFlee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeFlee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF286C0A1D524B06003B91BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF286C0C1D524B06003B91BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF286C0F1D524B06003B91BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF286C111D524B06003B91BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF286C141D524B06003B91BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF286C161D524B06003B91BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF286C1B1D524B06003B91BE /* WeFleeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeFleeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF286C1F1D524B06003B91BE /* WeFleeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeFleeTests.swift; sourceTree = "<group>"; };
+		AF286C211D524B06003B91BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF286C261D524B06003B91BE /* WeFleeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeFleeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF286C2A1D524B06003B91BE /* WeFleeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeFleeUITests.swift; sourceTree = "<group>"; };
+		AF286C2C1D524B06003B91BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF286C041D524B05003B91BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C181D524B06003B91BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C231D524B06003B91BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF286BFE1D524B05003B91BE = {
+			isa = PBXGroup;
+			children = (
+				AF286C091D524B06003B91BE /* WeFlee */,
+				AF286C1E1D524B06003B91BE /* WeFleeTests */,
+				AF286C291D524B06003B91BE /* WeFleeUITests */,
+				AF286C081D524B05003B91BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF286C081D524B05003B91BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF286C071D524B05003B91BE /* WeFlee.app */,
+				AF286C1B1D524B06003B91BE /* WeFleeTests.xctest */,
+				AF286C261D524B06003B91BE /* WeFleeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF286C091D524B06003B91BE /* WeFlee */ = {
+			isa = PBXGroup;
+			children = (
+				AF286C0A1D524B06003B91BE /* AppDelegate.swift */,
+				AF286C0C1D524B06003B91BE /* ViewController.swift */,
+				AF286C0E1D524B06003B91BE /* Main.storyboard */,
+				AF286C111D524B06003B91BE /* Assets.xcassets */,
+				AF286C131D524B06003B91BE /* LaunchScreen.storyboard */,
+				AF286C161D524B06003B91BE /* Info.plist */,
+			);
+			path = WeFlee;
+			sourceTree = "<group>";
+		};
+		AF286C1E1D524B06003B91BE /* WeFleeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF286C1F1D524B06003B91BE /* WeFleeTests.swift */,
+				AF286C211D524B06003B91BE /* Info.plist */,
+			);
+			path = WeFleeTests;
+			sourceTree = "<group>";
+		};
+		AF286C291D524B06003B91BE /* WeFleeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF286C2A1D524B06003B91BE /* WeFleeUITests.swift */,
+				AF286C2C1D524B06003B91BE /* Info.plist */,
+			);
+			path = WeFleeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF286C061D524B05003B91BE /* WeFlee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF286C2F1D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFlee" */;
+			buildPhases = (
+				AF286C031D524B05003B91BE /* Sources */,
+				AF286C041D524B05003B91BE /* Frameworks */,
+				AF286C051D524B05003B91BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeFlee;
+			productName = WeFlee;
+			productReference = AF286C071D524B05003B91BE /* WeFlee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF286C1A1D524B06003B91BE /* WeFleeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF286C321D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeTests" */;
+			buildPhases = (
+				AF286C171D524B06003B91BE /* Sources */,
+				AF286C181D524B06003B91BE /* Frameworks */,
+				AF286C191D524B06003B91BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF286C1D1D524B06003B91BE /* PBXTargetDependency */,
+			);
+			name = WeFleeTests;
+			productName = WeFleeTests;
+			productReference = AF286C1B1D524B06003B91BE /* WeFleeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF286C251D524B06003B91BE /* WeFleeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF286C351D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeUITests" */;
+			buildPhases = (
+				AF286C221D524B06003B91BE /* Sources */,
+				AF286C231D524B06003B91BE /* Frameworks */,
+				AF286C241D524B06003B91BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF286C281D524B06003B91BE /* PBXTargetDependency */,
+			);
+			name = WeFleeUITests;
+			productName = WeFleeUITests;
+			productReference = AF286C261D524B06003B91BE /* WeFleeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF286BFF1D524B05003B91BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdelrahman Mohamed";
+				TargetAttributes = {
+					AF286C061D524B05003B91BE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AF286C1A1D524B06003B91BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF286C061D524B05003B91BE;
+					};
+					AF286C251D524B06003B91BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF286C061D524B05003B91BE;
+					};
+				};
+			};
+			buildConfigurationList = AF286C021D524B05003B91BE /* Build configuration list for PBXProject "WeFlee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF286BFE1D524B05003B91BE;
+			productRefGroup = AF286C081D524B05003B91BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF286C061D524B05003B91BE /* WeFlee */,
+				AF286C1A1D524B06003B91BE /* WeFleeTests */,
+				AF286C251D524B06003B91BE /* WeFleeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF286C051D524B05003B91BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF286C151D524B06003B91BE /* LaunchScreen.storyboard in Resources */,
+				AF286C121D524B06003B91BE /* Assets.xcassets in Resources */,
+				AF286C101D524B06003B91BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C191D524B06003B91BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C241D524B06003B91BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF286C031D524B05003B91BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF286C0D1D524B06003B91BE /* ViewController.swift in Sources */,
+				AF286C0B1D524B06003B91BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C171D524B06003B91BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF286C201D524B06003B91BE /* WeFleeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF286C221D524B06003B91BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF286C2B1D524B06003B91BE /* WeFleeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF286C1D1D524B06003B91BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF286C061D524B05003B91BE /* WeFlee */;
+			targetProxy = AF286C1C1D524B06003B91BE /* PBXContainerItemProxy */;
+		};
+		AF286C281D524B06003B91BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF286C061D524B05003B91BE /* WeFlee */;
+			targetProxy = AF286C271D524B06003B91BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF286C0E1D524B06003B91BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF286C0F1D524B06003B91BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF286C131D524B06003B91BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF286C141D524B06003B91BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF286C2D1D524B06003B91BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF286C2E1D524B06003B91BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF286C301D524B06003B91BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeFlee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFlee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF286C311D524B06003B91BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeFlee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFlee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF286C331D524B06003B91BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeFleeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFleeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeFlee.app/WeFlee";
+			};
+			name = Debug;
+		};
+		AF286C341D524B06003B91BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeFleeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFleeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeFlee.app/WeFlee";
+			};
+			name = Release;
+		};
+		AF286C361D524B06003B91BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeFleeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFleeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeFlee;
+			};
+			name = Debug;
+		};
+		AF286C371D524B06003B91BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeFleeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.WeFleeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeFlee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF286C021D524B05003B91BE /* Build configuration list for PBXProject "WeFlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF286C2D1D524B06003B91BE /* Debug */,
+				AF286C2E1D524B06003B91BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF286C2F1D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF286C301D524B06003B91BE /* Debug */,
+				AF286C311D524B06003B91BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF286C321D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF286C331D524B06003B91BE /* Debug */,
+				AF286C341D524B06003B91BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF286C351D524B06003B91BE /* Build configuration list for PBXNativeTarget "WeFleeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF286C361D524B06003B91BE /* Debug */,
+				AF286C371D524B06003B91BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF286BFF1D524B05003B91BE /* Project object */;
+}
